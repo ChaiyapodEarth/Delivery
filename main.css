@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/DB\ HelvethaicaMon\ X\ Med.ttf"); /* IE9 Compat Modes */
+  src: url("./fonts/DB\ HelvethaicaMon\ X\ Med.ttf") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/DB\ HelvethaicaMon\ X\ Med.ttf") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/DB\ HelvethaicaMon\ X\ Med.ttf")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("./fonts/DB\ HelvethaicaMon\ X\ Med.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/DB\ HelvethaicaMon\ X\ Med.ttf")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "MyFont-Regula";
+  src: url("./fonts/Regula.ttf"); /* IE9 Compat Modes */
+  src: url("./fonts/Regula.ttf") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/Regula.ttf") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/Regula.ttf") format("woff"),
+    /* Pretty Modern Browsers */ url("./fonts/Regula.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Regula.ttf") format("svg"); /* Legacy iOS */
+}
+
+body {
+  background: white;
+  font-family: "MyFont";
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background-image: url("Asset/Background/Artboard\ 3.png");
+  background-size: 375px 812px;
+}
+
+.font {
+  font-family: "MyFont";
+  color: black;
+  font-size: 17pt;
+}
+
+.des {
+  font-family: "MyFont-Regula";
+  font-size: 11pt;
+}
+
+.Myrow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* margin-right: -15px;
+  margin-left: -15px; */
+}
+
+.pic {
+  width: 65%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
